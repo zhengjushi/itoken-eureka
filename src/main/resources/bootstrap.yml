@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: itoken-eureka
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        service-id: itoken-config

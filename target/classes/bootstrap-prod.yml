@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.133.131:8762
+      name: itoken-eureka
+      profile: prod
+      label: master
