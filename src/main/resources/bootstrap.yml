@@ -5,6 +5,3 @@ spring:
       name: itoken-eureka
       profile: dev
       label: master
-      discovery:
-        enabled: true
-        service-id: itoken-config
